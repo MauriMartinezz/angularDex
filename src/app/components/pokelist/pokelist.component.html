@@ -1,0 +1,12 @@
+<div class="container" *ngIf="pokeList[150]?.sprite">
+   <div class="cards row p-3">
+  <div *ngFor="let poke of pokeList; let i = index" class="card col-sm-3 bg-dark text-white" style="width: 18rem" [style.display]='pokeList[i]?.display'>
+        <img  [src]="poke?.sprite" class="card-img-top" [alt]="poke?.name"> 
+      <div class="card-body text-center">
+        <h5 class="card-title">{{poke?.id}} - {{poke?.name | uppercase}}</h5>
+          <a (click)="redirect(i)" class="btn btn-primary mx-auto mt-1">See more</a>
+      </div>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>

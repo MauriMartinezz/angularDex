@@ -1,0 +1,11 @@
+<div class="container">
+<div class="cards row p-3">
+    <div *ngFor="let result of searchResult" class="card col-md-3 bg-dark text-white">
+      <img [src]="result.sprite" class="card-img-top" [alt]="result.name">
+      <div class="card-body text-center">
+        <h5 class="card-title">{{result.id}} - {{result.name | uppercase}}</h5>
+        <a (click)="redirect(result.id)" class="btn btn-primary mx-auto mt-1">See more</a>
+      </div>
+    </div>
+</div>
+</div>

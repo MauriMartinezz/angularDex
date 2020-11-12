@@ -1,0 +1,27 @@
+.cards{
+    margin: 0px auto;
+    
+}
+.card{
+    margin: 20px 20px 20px 20px;
+    animation: appear 1.2s;
+    box-shadow: 0px 0px 15px rgb(73, 70, 70);
+}
+.container{
+    margin-top: 8vh;
+    z-index: unset;
+}
+
+.container, img{
+    animation: fadeIn 1s;
+    position: relative;
+}
+
+@keyframes appear{
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
