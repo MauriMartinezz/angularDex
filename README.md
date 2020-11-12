@@ -1,6 +1,9 @@
 <<<<<<< HEAD
 # Pokedex
+How to use it?
+Project made with Angular and Bootstrap. To use this app you need to have NodeJS and AngularCLI installed on your PC. When you already have them, clone the github repository, then 'npm install' on your terminal and then run 'ng serve -o' in the folder where you have my project.
 
+I hope you enjoy it, I am currently working to improve and add more functionality to the app.  
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
 ## Development server
@@ -27,6 +30,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 =======
-# angularDex
-Pokedex made with Angular 10
 >>>>>>> 4462d1e5120c3b99465828b164b0e25eee7c8ecc
